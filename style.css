@@ -88,9 +88,10 @@ span{
     font-size: 2.5rem;
     font-weight: 800;
     height: 2.5rem;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    margin-left : 50px;
+    
 }
 .top{
      display: flex;
@@ -111,6 +112,9 @@ span{
     flex-direction: column;
     gap: 10px; 
     padding:20px;
+}
+.education>h3{
+    margin-top: 0;
 }
 .education p{
     font-family: Roboto;
@@ -148,8 +152,8 @@ li{
     margin-top: 40px;
 }
 .review > h3{
-    margin-top: 20px;
-    
+    text-align: start;
+    margin-left: 40px;
 }
 .up{
     font-family: Roboto;
@@ -226,8 +230,10 @@ footer{
     }
     .box-review{
         display: flex;
-        justify-content: center;  
-          
+        justify-content: center;     
+    }
+    .review>h3{
+        margin-left: 15%;
     }
     .border{
         border: 2px solid black;
@@ -237,7 +243,7 @@ footer{
         flex-direction: column;
         gap: 50px;
         height: 10rem;
-        width: 24%;
+        width: 19%;
         margin-top: 40px;
     }
     .border1,.border2{
@@ -248,7 +254,7 @@ footer{
         display: flex;
         flex-direction: column;
         height: 10rem;
-        width: 24%;
+        width: 19%;
         gap: 50px;
         margin-top: 40px;
     }
